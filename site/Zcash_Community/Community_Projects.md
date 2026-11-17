@@ -308,6 +308,10 @@ A peer-to-peer poker platform that combines end-to-end encryption, mental poker,
 A Werewolf-style party game for groups in the same room. Players join from their phones; every night choice and vote is sealed as a shielded memo on Zcash testnet, and when the game ends the seed, salt and viewing key are revealed so anyone can check the result on-chain.  
 [Visit](https://zkoy.fun)
 
+### sealForge
+Sealed-bid auctions on Zcash. Bids are shielded payments to an escrow held by a FROST 2-of-3 key, so the bidders stay private while the clearing price is public. After the auction closes, its viewing key is published so anyone can recompute the result from the chain. Runs on Zcash testnet only.  
+[Visit](https://sealforge.udokaam.dev) · [GitHub](https://github.com/Udoka-AM/sealForge)
+
 ---
 
 ## Organizations & Labs
