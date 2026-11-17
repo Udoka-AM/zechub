@@ -312,6 +312,10 @@ A Werewolf-style party game for groups in the same room. Players join from their
 Sealed-bid auctions on Zcash. Bids are shielded payments to an escrow held by a FROST 2-of-3 key, so the bidders stay private while the clearing price is public. After the auction closes, its viewing key is published so anyone can recompute the result from the chain. Runs on Zcash testnet only.  
 [Visit](https://sealforge.udokaam.dev) · [GitHub](https://github.com/Udoka-AM/sealForge)
 
+### Corridor Finance shielded lane
+Private supplier payments for cross-border payouts. Each customer and period gets its own shielded vault (a ZIP 32 account or a FROST 2-of-3 vault) in the Ironwood pool. A batch pays every supplier in one shielded transaction built as a PCZT, with an encrypted invoice memo per output. An auditor gets one vault's viewing key and sees only that customer's payments for that period. The Zcash lane runs on Zcash testnet only.  
+[Docs](https://github.com/Udoka-AM/corridor/blob/main/apps/docs/integrations/zcash.mdx) · [GitHub](https://github.com/Udoka-AM/corridor)
+
 ---
 
 ## Organizations & Labs
